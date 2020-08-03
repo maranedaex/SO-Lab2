@@ -1,0 +1,6 @@
+Funciones.o: lab/funciones/Funciones.c \
+  lab/funciones/../variables/Variables.h \
+  lab/funciones/../variables/../stb_image/stb_image.h \
+  lab/funciones/../variables/../stb_image/stb_image_write.h \
+  lab/funciones/Funciones.h
+main.o: main.c lab/funciones/Funciones.h
